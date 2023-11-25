@@ -1,0 +1,3 @@
+Warning[203] ..\LED-TIMER.ASM 142 : Found opcode in column 1. (decf)
+Warning[203] ..\LED-TIMER.ASM 143 : Found opcode in column 1. (bnz)
+Warning[203] ..\LED-TIMER.ASM 145 : Found opcode in column 1. (goto)

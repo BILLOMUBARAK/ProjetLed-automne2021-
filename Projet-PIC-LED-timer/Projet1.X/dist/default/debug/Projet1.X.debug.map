@@ -1,0 +1,76 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Dec 08 11:32:14 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                    Zone1       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                    Zone2       code   0x000008    program   0x000008
+                    Zone3       code   0x000020    program   0x000034
+                    Zone4       code   0x000100    program   0x000080
+.config_300001_BUILD/DEFAULT/DEBUG/_EXT/1472/LE    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/DEBUG/_EXT/1472/LE    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/_EXT/1472/LE    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/DEBUG/_EXT/1472/LE    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/_EXT/1472/LE    romdata   0x300006    program   0x000001
+              ZONE1_UDATA      udata   0x000060       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000f      
+                            0x000020    0x000053      
+                            0x000100    0x00017f      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+            199 out of 66584 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              AllumeJaune   0x000144    program     static ..\led-timer.asm         
+              AllumeRouge   0x000162    program     static ..\led-timer.asm         
+               AllumeVert   0x000128    program     static ..\led-timer.asm         
+                    Delai   0x00010a    program     static ..\led-timer.asm         
+                FeuAllume   0x000118    program     static ..\led-timer.asm         
+              JauneAllume   0x000156    program     static ..\led-timer.asm         
+              RougeAllume   0x000174    program     static ..\led-timer.asm         
+                    Start   0x000020    program     static ..\led-timer.asm         
+                   TO_ISR   0x000100    program     static ..\led-timer.asm         
+               VertAllume   0x000138    program     static ..\led-timer.asm         
+                     loop   0x00004e    program     static ..\led-timer.asm         
+                     saut   0x000108    program     static ..\led-timer.asm         
+                    Count   0x000060       data     static ..\led-timer.asm         
+               DelaiJaune   0x000063       data     static ..\led-timer.asm         
+               DelaiRouge   0x000061       data     static ..\led-timer.asm         
+                DelaiVert   0x000062       data     static ..\led-timer.asm         
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Start   0x000020    program     static ..\led-timer.asm         
+                     loop   0x00004e    program     static ..\led-timer.asm         
+                   TO_ISR   0x000100    program     static ..\led-timer.asm         
+                     saut   0x000108    program     static ..\led-timer.asm         
+                    Delai   0x00010a    program     static ..\led-timer.asm         
+                FeuAllume   0x000118    program     static ..\led-timer.asm         
+               AllumeVert   0x000128    program     static ..\led-timer.asm         
+               VertAllume   0x000138    program     static ..\led-timer.asm         
+              AllumeJaune   0x000144    program     static ..\led-timer.asm         
+              JauneAllume   0x000156    program     static ..\led-timer.asm         
+              AllumeRouge   0x000162    program     static ..\led-timer.asm         
+              RougeAllume   0x000174    program     static ..\led-timer.asm         
+                    Count   0x000060       data     static ..\led-timer.asm         
+               DelaiRouge   0x000061       data     static ..\led-timer.asm         
+                DelaiVert   0x000062       data     static ..\led-timer.asm         
+               DelaiJaune   0x000063       data     static ..\led-timer.asm         
+
+
